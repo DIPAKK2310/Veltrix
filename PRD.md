@@ -6,3 +6,9 @@
 **Product Name:** Project Veltrix Backend
 
 **Version:** 1.0.0
+
+**Product Type:** Backend API for Veltrix a Project Management System 
+
+Project Veltrix is a RESTful API services designed to support collaborative project management. The system anables teams to organize projects, manage tasks with subtasks, maintain project notes and handle user authentication with role-based access control
+
+## 
