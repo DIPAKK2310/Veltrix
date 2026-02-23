@@ -2,22 +2,26 @@
 
 ## Project Veltrix Backend
 
-### 1. Product Overview 
+### 1. Product Overview
+
 **Product Name:** Project Veltrix Backend
 
 **Version:** 1.0.0
 
-**Product Type:** Backend API for Veltrix a Project Management System 
+**Product Type:** Backend API for Veltrix a Project Management System
 
 Project Veltrix is a RESTful API services designed to support collaborative project management. The system anables teams to organize projects, manage tasks with subtasks, maintain project notes and handle user authentication with role-based access control
 
 ### 2. Target Users
-- **Project Administrators:** Create and manage projects, assign roles, oversee all project activities 
-- **Project Admins:** Manage tasks and project content within assigned projects 
-- **Team Members:** View projects, update tasks completion status, access project information 
+
+- **Project Administrators:** Create and manage projects, assign roles, oversee all project activities
+- **Project Admins:** Manage tasks and project content within assigned projects
+- **Team Members:** View projects, update tasks completion status, access project information
 
 ### 3. Core Features
+
 ### 3.1 User Authentication & Authorization
+
 - **User Registration:** Account creation with email verification
 - **User Login:** Secure authentication with JWT tokens
 - **Password Management:** Change password, forgot/reset password functionality
@@ -26,35 +30,40 @@ Project Veltrix is a RESTful API services designed to support collaborative proj
 - **ROle-Based Access Control:** Three tier permission system (Admin, Project Admin, Member)
 
 ### 3.2 User Authentication & Authorization
-- **Project Creation:** Create new projects with name and description  
+
+- **Project Creation:** Create new projects with name and description
 - **Project Listing:** View all projects user has access to with member count
 - **Project Details:** Access individual project information
 - **Project Updates:** Modify project information (Admin only)
 - **Project Deletion:** Remove Projects (Admin Only)
 
 ### 3.3 Team Member Management
+
 - **Member Addition:** Invite user to projects via email
 - **Member Listing:** View all project team members
 - **Role Management:** Update member roles within projects (Admin Only)
 - **Member Removal:** Remove team member from projects (Admin Only)
 
 ### 3.4 Task Management
+
 - **Task Creation:** Create task with title, description, and assignee
 - **Task Listing:** View all tasks within a project
 - **Task Details:** Access individual task information
-- **Task Updates:** Modify task information and status 
+- **Task Updates:** Modify task information and status
 - **Task Deletion:** Remove tasks from projects
-- **File Attachments:** Support for multiple file attachments on tasks 
+- **File Attachments:** Support for multiple file attachments on tasks
 - **Task Assignment:** Assign tasks to specific team members
-- **Status Tracking:** Three-state status system (Todo, In Progress, Done) 
+- **Status Tracking:** Three-state status system (Todo, In Progress, Done)
 
 ### 3.5 Subtask Management
+
 - **Subtask Creation:** Add subtasks to existing tasks
 - **Subtask Updates:** Modify subtasks details and completion status
 - **Subtask Deletion:** Remove subtasks (Admin/Project Admin Only)
 - **Member Completion:** Allow members to mark subtasks as complete
 
 ### 3.6 Project Notes
+
 - **Note Creation:** Add notes to projects (Admin Only)
 - **Note Listing:** View all project notes
 - **Note Details:** Access individual note content
@@ -62,13 +71,14 @@ Project Veltrix is a RESTful API services designed to support collaborative proj
 - **Note Deletion:** Remove notes (Admin Only)
 
 ### 3.7 System Health
+
 - **Health Check:** API endpoints for systems status monitoring
 
 ### 4. Technical Specifications
 
 ### 4.1 API Endpoints Struture
-Authentication Routes(/api/v1/auth/)
 
+Authentication Routes(/api/v1/auth/)
 
 **Authentication Routes** (`/api/v1/auth/`)
 
@@ -172,4 +182,3 @@ Authentication Routes(/api/v1/auth/)
 - File attachment capability for enhanced collaboration
 - Email notification system for user verification and password reset
 - Comprehensive API documentation through endpoint structure
-
