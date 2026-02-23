@@ -1,4 +1,5 @@
-# Veltrix 🚀  
+# Veltrix 🚀
+
 **Next-Generation Project Management & Issue Tracking Platform**
 
 Veltrix is a modern, full-stack project management system designed for high-performance teams.  
@@ -34,23 +35,28 @@ Inspired by tools like Jira and Linear, Veltrix focuses on **speed, clarity, and
 ## 🧠 Tech Stack
 
 **Frontend**
+
 - React / Next.js
 - Tailwind CSS
 - Framer Motion
 
 **Backend**
+
 - Node.js
 - Express.js
 - REST APIs
 
 **Database**
+
 - MongoDB
 
 **Auth & Security**
+
 - JWT Authentication
 - Role-Based Access Control (RBAC)
 
 **DevOps**
+
 - Docker (planned / in progress)
 - CI/CD (GitHub + Vercel)
 
@@ -58,10 +64,10 @@ Inspired by tools like Jira and Linear, Veltrix focuses on **speed, clarity, and
 
 ## 📐 System Design Goals
 
-- Clean separation of concerns  
-- Scalable API design  
-- Secure authentication flow  
-- Production-ready folder structure  
+- Clean separation of concerns
+- Scalable API design
+- Secure authentication flow
+- Production-ready folder structure
 - Real-world SaaS patterns (not tutorial code)
 
 ---
@@ -71,6 +77,7 @@ Inspired by tools like Jira and Linear, Veltrix focuses on **speed, clarity, and
 Veltrix is currently **under active development**.
 
 Planned improvements:
+
 - 🔔 Notifications system
 - 📈 Analytics & reporting
 - 🧪 Testing (Unit + Integration)
@@ -82,6 +89,7 @@ Planned improvements:
 ## 🛠 Getting Started
 
 ### Prerequisites
+
 - Node.js (v18+ recommended)
 - MongoDB
 - Git
