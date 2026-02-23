@@ -1,0 +1,25 @@
+{
+  "name": "veltrix",
+  "version": "1.0.0",
+  "description": "Veltrix is a next-generation project management and issue tracking system built for modern teams. Inspired by tools like Jira and Linear, Veltrix focuses on speed, clarity, and efficient workflow management.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DIPAKK2310/Veltrix.git"
+  },
+  "keywords": [
+    "Veltrix",
+    "Project",
+    "Management"
+  ],
+  "author": "Dipak Khare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DIPAKK2310/Veltrix/issues"
+  },
+  "homepage": "https://github.com/DIPAKK2310/Veltrix#readme"
+}
