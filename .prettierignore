@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# Lockfiles (optional — many teams keep formatted)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
