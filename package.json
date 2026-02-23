@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node index.js",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/DIPAKK2310/Veltrix#readme",
   "devDependencies": {
+    "nodemon": "^3.1.14",
     "prettier": "3.8.1"
   }
 }
