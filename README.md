@@ -101,3 +101,9 @@ git clone https://github.com/DIPAKK2310/veltrix.git
 cd veltrix
 npm install
 ```
+
+### Build
+
+```
+npm run build
+```
